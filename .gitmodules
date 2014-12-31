@@ -1,0 +1,3 @@
+[submodule "FileConverterClient"]
+	path = FileConverterClient
+	url = https://github.com/XKEYGmbH/fileconverter-android
