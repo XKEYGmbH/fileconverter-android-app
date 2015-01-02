@@ -77,7 +77,7 @@ public class Convert extends Activity {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == FilePickerActivity.REQUEST_FILE && resultCode == RESULT_OK) {
+        /*if (requestCode == FilePickerActivity.REQUEST_FILE && resultCode == RESULT_OK) {
             Toast.makeText(this, "File Selected: " + data
                             .getStringExtra(FilePickerActivity.FILE_EXTRA_DATA_PATH),
                     Toast.LENGTH_LONG).show();
@@ -122,7 +122,7 @@ public class Convert extends Activity {
                 }
             });
         }
-        super.onActivityResult(requestCode, resultCode, data);
+        super.onActivityResult(requestCode, resultCode, data);*/
     }
 
     public void StartConverting(String path) {
@@ -169,6 +169,7 @@ public class Convert extends Activity {
                     FileOutputStream outputStream = new FileOutputStream(file);
                     outputStream.write(bytes);
                     outputStream.close();
+                    outputStream.flush();
 
                     try {
                         PackageManager packageManager = getPackageManager();

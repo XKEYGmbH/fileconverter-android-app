@@ -21,6 +21,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.github.developerpaul123.filepickerlibrary:library:1.0@aar'
     compile project(':FileConverterClient')
+    compile 'com.github.developerpaul123.filepickerlibrary:library:1.0@aar'
+    compile 'com.norbsoft.typefacehelper:library:0.9.0'
+    compile 'com.android.support:support-v4:20.0.0'
 }
