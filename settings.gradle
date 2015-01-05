@@ -1,1 +1,1 @@
-include ':app', ':FileConverterClient'
+include ':app', ':FileConverterClient', ':SlidingMenu'

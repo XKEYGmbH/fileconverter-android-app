@@ -5,4 +5,5 @@
     <color name="orange_light">#ed926b</color>
     <color name="font">#231f20</color>
     <color name="white">#fff</color>
+    <color name="dark">#231f20</color>
 </resources>

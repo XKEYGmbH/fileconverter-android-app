@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FileConverter.iml" filepath="$PROJECT_DIR$/FileConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/FileConverterClient/FileConverterClient.iml" filepath="$PROJECT_DIR$/FileConverterClient/FileConverterClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu/SlidingMenu.iml" filepath="$PROJECT_DIR$/SlidingMenu/SlidingMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
